@@ -1,4 +1,4 @@
-FROM hadarahul/opl-ns3-setup
+FROM FROM ubuntu:16.04
 
 RUN apt-get update \
  && apt-get install -y -q --no-install-recommends \
